@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>prompt_percentage_lower</key>
+	<integer>33</integer>
+	<key>prompt_percentage_upper</key>
+	<integer>66</integer>
+	<key>prompts</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>FirstAd</string>
+			<key>count</key>
+			<integer>5</integer>
+			<key>min_version</key>
+			<string>0</string>
+			<key>condition</key>
+			<string>1-A</string>
+			<key>action</key>
+			<string>purchase_disable_ads</string>
+			<key>type</key>
+			<string>standard</string>
+			<key>configurations</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>This is an ad!</string>
+					<key>text</key>
+					<string>Isn&apos;t it fun? After games you will be presented with one of these. Prefer to skip them? You can always turn ads off by upgrading.</string>
+					<key>image</key>
+					<string></string>
+					<key>button_title</key>
+					<string>Disable Ads Now</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BuyHints</string>
+			<key>count</key>
+			<integer>5</integer>
+			<key>min_version</key>
+			<string>0</string>
+			<key>condition</key>
+			<string>A*(1-B)</string>
+			<key>action</key>
+			<string>purchase_hints</string>
+			<key>type</key>
+			<string>standard</string>
+			<key>configurations</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Need hints?</string>
+					<key>text</key>
+					<string>Get hints when you need them by upgrading!</string>
+					<key>image</key>
+					<string>gear~ipad.png</string>
+					<key>button_title</key>
+					<string>Get Hints</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BuyDisableAds</string>
+			<key>count</key>
+			<integer>5</integer>
+			<key>min_version</key>
+			<string>0</string>
+			<key>condition</key>
+			<string>A*(1-C)</string>
+			<key>action</key>
+			<string>purchase_disable_ads</string>
+			<key>type</key>
+			<string>standard</string>
+			<key>configurations</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Tired of these ads?</string>
+					<key>text</key>
+					<string>Purchase the upgrade to disable them and support us!</string>
+					<key>image</key>
+					<string>block~ipad.png</string>
+					<key>button_title</key>
+					<string>Disable Ads</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

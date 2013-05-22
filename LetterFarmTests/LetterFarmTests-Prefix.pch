@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'LetterFarmTests' target in the 'LetterFarmTests' project
+//
+
+#import "BaseFarm-Prefix.h"
+
+#define LETTER_WORD 1
+
+//#define FREEZE_START_SCREEN 1

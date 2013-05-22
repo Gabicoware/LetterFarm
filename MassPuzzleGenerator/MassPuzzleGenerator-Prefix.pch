@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'MassPuzzleGenerator' target in the 'MassPuzzleGenerator' project
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#endif
+
+#define OBJECT_IF_OF_CLASS(object, objectClass) ([object isKindOfClass:[objectClass class]] ? (id)object : nil)
+
+#define COLOR_WORD 1

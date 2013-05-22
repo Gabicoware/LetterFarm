@@ -1,0 +1,15 @@
+//Generation
+
+python puzzle_dict_processing.py 5 93013 dictionary.txt
+python puzzle_dict_processing.py 4 631877 dictionary.txt
+python puzzle_dict_processing.py 3 775357 dictionary.txt
+
+//Final Copy
+cp /tmp/freq.3.lfd.txt.out puzzle.3.lfd
+cp /tmp/moves.3.lfm.txt.out moves.3.lfm
+
+cp /tmp/freq.4.lfd.txt.out puzzle.4.lfd
+cp /tmp/moves.4.lfm.txt.out moves.4.lfm
+
+cp /tmp/freq.5.lfd.txt.out puzzle.5.lfd
+cp /tmp/moves.5.lfm.txt.out moves.5.lfm
